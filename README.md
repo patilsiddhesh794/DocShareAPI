@@ -24,14 +24,22 @@ Welcome to the Document Management API, a Node.js project for managing files and
 ## Setup
 
 ### Prerequisites
-- Node.js installed on your machine.
+ Node.js installed on your machine.
 
 ### Installation
-1. Clone the repository: 
-     -  `git clone <repository-url>` 
-3. Create a `.env` file in the root directory.
-4. Define environment variables:
-5. 4. Install dependencies: `npm install`
+1. Clone the repository:
+-          git clone https://github.com/patilsiddhesh794/DocShareAPI.git
+2. Create a `.env` file in the root directory.
+ 
+3. Define environment variables:
+ -         PORT = 3000
+           DATABASE_URL = Your Database URL
+           SECRET_KEY = "It's a big secret...."
+           PASSWORD = YOUR_APP_PASSWORD_FOR_SENDING_EMAIL
+           EMAIL = YOUR_EMAIL
+       
+4. Install dependencies:
+   -       npm install
 
 ### Running the Server
 1. Start the server: `npm start`

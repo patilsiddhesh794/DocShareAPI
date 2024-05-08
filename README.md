@@ -39,7 +39,7 @@ Welcome to the Document Management API, a Node.js project for managing files and
            EMAIL = YOUR_EMAIL
        
 4. Install dependencies:
-   -       npm install
+-       npm install
 
 ### Running the Server
 1. Start the server: `npm start`

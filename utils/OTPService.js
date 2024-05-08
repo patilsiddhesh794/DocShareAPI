@@ -20,7 +20,7 @@ exports.getOtp = () => {
 exports.sendOTP = async (otp, email) => {
     try {
         const mailConfigurations = {
-            from: 'bblendal1234@gmail.com',
+            from: process.env.EMAIL,
             to: email,
             subject: 'Emai Verification',
             html: `OTP for Verification ${otp}`
